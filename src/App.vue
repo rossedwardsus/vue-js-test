@@ -1,19 +1,22 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <HelloWorld/>
+    <JsonApiTest/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+//import HelloWorld from './components/HelloWorld'
+  import JsonApiTest from './components/JsonApiTest'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    name: 'App',
+    components: {
+      //HelloWorld
+      JsonApiTest
+    }
+
   }
-}
 </script>
 
 <style>
